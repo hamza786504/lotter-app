@@ -1,0 +1,10 @@
+/* GLOBAL STYLING */
+.container_width{
+    max-width: 1200px;
+    padding: 10px;
+  }
+  .darkblue_square_btn{
+    background-color: var(--dark-blue);
+    border: 2px solid var(--dark-blue);
+  } 
+  

@@ -1,0 +1,26 @@
+/* GLOBAL STYLING */
+.container_width{
+    max-width: 1200px;
+    padding: 10px;
+  }
+
+  .footer ul li{
+    line-height: 40px;
+  }
+  .footer .icon_cover{
+    border-radius: 50px;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    height: 40px;
+    aspect-ratio: 1/1;
+  }
+  .footer .contact_details li{
+    margin-top: 20px;
+    line-height: 22px !important;
+  }
+  .footer{
+    padding: 7rem 0;
+  }

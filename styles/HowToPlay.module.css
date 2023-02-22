@@ -1,0 +1,38 @@
+/* GLOBAL STYLING */
+.container_width{
+    max-width: 1200px;
+    padding: 10px;
+  }
+
+.how_to_play{
+    background: #F4F4F4;
+}
+.how_to_play .step_cover > span{
+    position: relative;
+}
+.how_to_play .stepbox_outer > .step_cover > span:after{
+    position: absolute;
+    top: 50%;
+    right: -3rem;
+    transform: translateX(100%);
+    width: 180px;
+    height: 10px;
+    content: "";
+    background-image: url("/images/Vector 1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.how_to_play .stepbox_outer:last-child .step_cover > span:after{
+    background-image: none !important;
+}
+
+@media screen and (max-width: 1100px){
+    .how_to_play .stepbox_outer > .step_cover > span:after{
+        right: -2rem;
+    }
+}
+@media screen and (max-width: 1024px){
+    .how_to_play .stepbox_outer > .step_cover > span:after{
+        background-image: none !important;
+    }
+}

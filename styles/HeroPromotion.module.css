@@ -1,0 +1,26 @@
+.container_width {
+    max-width: 1200px;
+    padding: 10px;
+}
+.left_side span{
+    color: var(--seagreen);
+}
+.hero_promotion .left_side .pill_btn{
+    background-color: #01A8FF !important;
+}
+.hero_promotion{
+    padding: 3rem;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.171);
+}
+.hero_promotion .right_side .time_box span{
+    display: inline-block;
+    border-radius: 50%;
+    min-width: 70px;
+    max-width: 70px;
+    aspect-ratio: 1;
+    background-color: transparent;
+    border: 2px solid #01A8FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

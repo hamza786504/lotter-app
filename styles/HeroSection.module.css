@@ -1,0 +1,30 @@
+/* global */
+.container_width {
+    max-width: 1200px;
+    padding: 10px;
+}
+
+
+/* .hero_section */
+.hero_section{
+    background: linear-gradient(var(--primary-background) , transparent);
+    min-height: 80vh;
+    width: 100%;
+    padding-top: 60px;
+  }
+  .hero_section .left_side .pill_btn{
+    color: var(--primary-background) !important;
+  }
+  .hero_section .left_side h1{
+    font-size: 2.67rem !important;
+    margin-bottom: 0;
+  }
+  
+  .slick-dots li button:before{
+   font-size: 15px !important;
+  }
+  .slick-dots{
+    margin-bottom: 100px;
+  }
+  
+  
